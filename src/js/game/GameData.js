@@ -44,7 +44,7 @@ export class VowelsData {
 		const makeClue = (word) => {
 			let transformed = '';
 			for (let i = 0; i < word.length; i++) {
-				if ('aeiouy'.includes(word[i].toLowerCase()))
+				if ('aeiou'.includes(word[i].toLowerCase()))
 					continue;
 				if (!/^[a-zA-Z]$/g.test(word[i]))
 					continue;
